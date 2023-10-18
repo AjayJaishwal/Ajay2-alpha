@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+    #container{
+     width: 50%;
+     height: 800px;
+     background-color: white;
+     float: right;
+     
+     
+    }
+    #navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    }
+    #navbar h1{
+        font-size: 20px;
+        
+    }
+     button{
+        border: transparent;
+        height: 30px;
+        background-color: transparent;
+        color: red;
+        font-weight: bolder;
+    }
+    
+    #reward{
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid black;
+        display: flex;
+        height: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    #cart_product{
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid black;
+        height: 120px;
+    }
+    #coupon{
+        font-size: 5px;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid black;
+    }
+    #price_details{
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 7px;    
+        height: 160px;
+       
+        
+    }
+    #price_details div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    #redeem{
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 7px;
+    }
+</style>
+<body> 
+    <div id="container">
+        <!-- navbar div -->
+       <form id="navbar">
+            <a href="./homepage.html">&xlarr;</a>
+            <h1>Bag items </h1>
+            <button >View Watchlist</button>
+       </form>
+       <hr>
+
+       <!-- reward poitn -->
+       <div id ="reward">
+            <h3>♦2000 Reward Points ($20) </h3>
+            
+            <button >Apply</button>
+       </div >
+
+       <!-- prodct div -->
+       <div id ="cart_product">
+       
+       </div>
+
+       <!-- cupon div -->
+       <div id="coupon">
+            <img src="" alt="">  
+            <h1>Coupons</h1>
+       </div>
+
+       <!-- pricing details -->
+       <div id="price_details">
+        <h1>Price Details</h1>
+        <div>
+            <h1>Bag MRP (3 items)</h1>
+            <h1>$ 4358</h1>
+        </div>
+        <div>
+            <h1>Bag Discount</h1>
+            <h1>$ 2061</h1>
+        </div>
+        <div>
+            <h1>Shipping</h1>
+            <h1>Free</h1>
+        </div>
+        <div>
+            <h1>You Pay</h1>
+            <h1>$ 2297</h1>
+        </div>
+       </div>
+
+       <!-- bottom div which contain total price and proceed to payment  -->
+       <div id="redeem">
+            <h1 style="color: rgb(161, 160, 160);">Redeem to get a discount on your next order</h1>
+            <h1>Earn 2297 Reward Points</h1>
+       </div>
+
+    </div>
+</body>
+</html>
